@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
       title: 'Atrapados en el Tiempo TV',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        scaffoldBackgroundColor: Color.fromARGB(255, 0, 0, 0),
-        primaryColor: Color.fromARGB(255, 8, 45, 176),
+        scaffoldBackgroundColor:const Color.fromARGB(255, 0, 0, 0),
+        primaryColor: const Color.fromARGB(255, 8, 45, 176),
         appBarTheme: const AppBarTheme(
           color: Color.fromARGB(255, 0, 0, 0),
         ),
