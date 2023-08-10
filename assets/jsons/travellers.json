@@ -1,0 +1,26 @@
+{
+    "ep1": {
+        "url": "https://www.youtube.com/watch?v=jsb44fMkMDU&list=PLGnTkssyWUu4fwMpYu6RjmFuVcadSY48q",
+        "title": "VIAJEROS EN EL TIEMPO: JOHN TITOR",
+        "mini": "assets/images/ep1_viajero.png",
+        "duration": "07:27",
+        "date": "30/06/2018",
+        "description": "John Titor: fue uno de los primeros viajeros en el tiempo del nuevo milenio, sus predicciones y revelaciones hicieron dudar a más de uno."
+    },
+    "ep2": {
+        "url": "https://www.youtube.com/watch?v=XenAjgW8tk8&list=PLGnTkssyWUu4fwMpYu6RjmFuVcadSY48q&index=2",
+        "title": "VIAJEROS EN EL TIEMPO: EL VIAJERO DE UCRANIA",
+        "mini": "assets/images/ep2_viajero.png",
+        "duration": "05:24",
+        "date": "31/07/2018",
+        "description": "Es esta ocasión un hombre asegura haber hechos dos viajes hacia el futuro, conoce su historia."
+    },
+    "ep3": {
+        "url": "https://www.youtube.com/watch?v=r3jlsSRduNY&list=PLGnTkssyWUu4fwMpYu6RjmFuVcadSY48q&index=3",
+        "title": "VIAJEROS EN EL TIEMPO: AL BIELEK",
+        "mini": "assets/images/ep3_viajero.png",
+        "duration": "06:38",
+        "date": "01/09/2018",
+        "description": "Un hombre asegura haber viajado por error al año 2749 como parte del proyecto Montauk. Proyecto donde se desarrolló el experimento Philadelphia."
+    }
+}

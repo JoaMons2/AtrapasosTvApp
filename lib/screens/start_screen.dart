@@ -15,10 +15,10 @@ class _StartScreenState extends State<StartScreen> {
       appBar: AppBar(
         leading: Padding(
           padding: const EdgeInsets.all(1.0),
-          child: Image.asset('assets/images/8.png'),
+          child: Image.asset('assets/images/icon.jpg'),
         ),
         title: Text(
-          'Atrapados Tv',
+          'Atrapados en el Tiempo Tv',
           style: Theme.of(context).textTheme.headlineLarge,
         ),
       ),
@@ -27,7 +27,7 @@ class _StartScreenState extends State<StartScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'Recomendado para ti',
+              'RECOMENDADO PARA TI',
               style: Theme.of(context).textTheme.headlineLarge,
             ),
             const SuggestionCard(),
@@ -37,22 +37,29 @@ class _StartScreenState extends State<StartScreen> {
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: Icon(Icons.camera_alt),
+            icon: Icon(
+              Icons.camera_alt,
+              color: Color.fromARGB(255, 255, 255, 255),),
             label:  'Últimos videos',
-            backgroundColor: Color.fromARGB(255, 2, 50, 72),
+           // backgroundColor: Color.fromARGB(255, 255, 255, 255),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.video_library),
+            icon: Icon(Icons.video_library,
+            color: Color.fromARGB(255, 255, 255, 255),),
             label:  'Galeria',
-            backgroundColor: Color.fromARGB(255, 2, 50, 72),
+           // backgroundColor: Color.fromARGB(255, 255, 255, 255),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.people),
+            icon: Icon(Icons.people,
+            color: Color.fromARGB(255, 255, 255, 255),),
             label:  'Comunidad',
-            backgroundColor: Color.fromARGB(255, 2, 50, 72),
+            //backgroundColor: Color.fromARGB(255, 255, 255, 255),
           ),
         ],
-        backgroundColor: Colors.blue,
+        backgroundColor:Color.fromARGB(255, 3, 3, 40),
+        unselectedItemColor: Color.fromARGB(255, 255, 255, 255),
+        unselectedLabelStyle: const TextStyle(color: Color.fromARGB(255, 255, 255, 255), fontSize: 14),
+        fixedColor: const Color.fromARGB(255, 255, 255, 255),
         onTap: null,
         ),
       );

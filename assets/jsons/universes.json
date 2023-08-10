@@ -1,0 +1,26 @@
+{
+    "p1": {
+        "url": "https://www.youtube.com/watch?v=rR6VvZ7OZ-g&list=PLrvdEattZlOrMHmS9YQEeuQmrVgn8dtkW",
+        "title": "UNIVERSOS PARALELOS / LA LLAMADA IMPOSIBLE",
+        "mini": "assets/images/p1_univers.png",
+        "duration": "07:03",
+        "date": "11/08/2019",
+        "description": "Existe una historia proveniente de Argentina, donde un hombre y una mujer de distintos universos se conocieron..."
+    },
+    "p2": {
+        "url": "https://www.youtube.com/watch?v=jZGmhV_nDD0&list=PLrvdEattZlOrMHmS9YQEeuQmrVgn8dtkW&index=2",
+        "title": "UNIVERSOS PARALELOS PARTE 2",
+        "mini": "assets/images/p2_univers.png",
+        "duration": "06:16",
+        "date": "15/09/2019",
+        "description": "¿COMO ERES EN EL OTRO MUNDO? Inquietantes historias de mundos alternos en el multiverso."
+    },
+    "p3": {
+        "url": "https://www.youtube.com/watch?v=lpAhgy6KS58&list=PL-9iO2rIrpm6gcnD62QtGwq-SpQ5MzbDQ&index=12",
+        "title": "UNIVERSOS PARALELOS PARTE 3",
+        "mini": "assets/images/p3_univers.png",
+        "duration": "14:02",
+        "date": "3/03/2020",
+        "description": "Existen diferentes teorías sobre universos paralelos, una de ellas es que nuestra realidad fue cambiada. Con ello, hay historias sobre personas que aseguran haber tenido experiencias en una realidad alterna."
+    }
+}

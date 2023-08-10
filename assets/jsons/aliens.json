@@ -1,0 +1,27 @@
+{
+    "alien1": {
+        "url": "https://www.youtube.com/watch?v=H8XjMmZpSUg",
+        "title": "¿Los extraterrestres viajan en planetas errantes?",
+        "mini": "assets/images/aliens_1.png",
+        "duration": "08:12",
+        "date": "22/09/2022",
+        "description": "¿Los extraterrestres viajan en planetas errantes? o solo es fantasía..."
+    },
+    "alien2":{
+        "url": "https://www.youtube.com/watch?v=h2FYw87rzF4",
+        "title": "Dos Ovnis fueron vistos el Viernes Santo en México",
+        "mini": "assets/images/aliens_2.png",
+        "duration": "08:16",
+        "date": "12/04/2023",
+        "description": "Dos Ovnis fueron vistos el Viernes Santo en México"
+    },
+    "alien3":{
+        "url": "https://www.youtube.com/watch?v=ik7XJ0dnBV8",
+        "title": "Encuentran ADN Extraterrestre en restos de antepasados",
+        "mini": "assets/images/aliens_3.png",
+        "duration": "05:54",
+        "date": "07/08/2023",
+        "description": "Encuentran ADN Extraterrestre en restos de antepasados"
+    }
+
+}

@@ -12,30 +12,30 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Atrapados TV',
+      title: 'Atrapados en el Tiempo TV',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         scaffoldBackgroundColor: Color.fromARGB(255, 0, 0, 0),
-        primaryColor: Color.fromARGB(255, 18, 82, 114),
+        primaryColor: Color.fromARGB(255, 8, 45, 176),
         appBarTheme: const AppBarTheme(
-          color: Color.fromARGB(255, 28, 82, 176),
+          color: Color.fromARGB(255, 0, 0, 0),
         ),
         textTheme: const TextTheme(
           headlineLarge: TextStyle(
             color: Colors.white,
-            fontSize: 40,
+            fontSize: 35,
             fontWeight: FontWeight.bold,
-            fontFamily: 'Helvetica'),
+            fontFamily: 'Tahoma',),
           bodyMedium: TextStyle(
             color: Colors.white,
             fontSize: 15,
             fontWeight: FontWeight.bold,
-            fontFamily: 'Helvetica'),
+            fontFamily: 'Tahoma'),
           headlineMedium: TextStyle(
             color: Colors.white,
-            fontSize: 25,
+            fontSize: 20,
             fontWeight: FontWeight.bold,
-            fontFamily: 'Helvetica'),
+            fontFamily: 'Tahoma'),
             ),
 
         useMaterial3: true,

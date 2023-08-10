@@ -11,7 +11,7 @@ class SuggestionCard extends StatelessWidget {
         ClipRRect(
           borderRadius: BorderRadius.circular(40),
           child: const Image(
-            image: AssetImage('assets/images/8.png'),
+            image: AssetImage('assets/images/ep1_viajero.png'),
           ),
         ),
         const SizedBox(
@@ -21,33 +21,33 @@ class SuggestionCard extends StatelessWidget {
           children: [
             SizedBox(
               width: 300,
-              height: 50,
+              height: 70,
               child: Text(
-                'Atrapados en el Tiempo',
+                'VIAJEROS EN EL TIEMPO: JOHN TITOR',
                 style: Theme.of(context).textTheme.headlineMedium,
               ),
             ),
             SizedBox(
               width: 300,
-              height: 80,
+              height: 100,
               child: Text(
-                'No somos los unicos en este universo, existen millones de galaxias con diversa humanidad y no humanidad',
+                'John Titor: fue uno de los primeros viajeros en el tiempo del nuevo milenio, sus predicciones y revelaciones hicieron dudar a más de uno.',
                 style: Theme.of(context).textTheme.bodyMedium,
               ),
             ),
             SizedBox(
               width: 300,
-              height: 50,
+              height: 40,
               child: Text(
-                'Fecha: 10/08/2023',
+                'Fecha: 30/06/2018',
                 style: Theme.of(context).textTheme.bodyMedium,
               ),
             ),
             SizedBox(
               width: 300,
-              height: 50,
+              height: 25,
               child: Text(
-                'Duración: 15:56',
+                'Duración: 07:27',
                 style: Theme.of(context).textTheme.bodyMedium,
               ),
             ),
