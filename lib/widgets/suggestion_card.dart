@@ -1,8 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:kc_tv_app/model/item.dart';
 import 'package:kc_tv_app/screens/player_screen.dart';
 
-class SuggestionCard extends StatelessWidget {
-  const SuggestionCard({super.key});
+class SuggestionCard extends StatefulWidget {
+  final Item item;
+
+  const SuggestionCard({super.key, required this.item});
+
+  @override
+  State<SuggestionCard> createState() => _SuggestionCardState();
+}
+
+class _SuggestionCardState extends State<SuggestionCard> {
 
   @override
   Widget build(BuildContext context) {
