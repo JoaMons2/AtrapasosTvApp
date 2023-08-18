@@ -24,17 +24,20 @@ class MyApp extends StatelessWidget {
         textTheme: const TextTheme(
           headlineLarge: TextStyle(
             color: Colors.white,
-            fontSize: 35,
+            fontSize: 32,
             fontWeight: FontWeight.bold,
             fontFamily: 'Tahoma',),
-          bodyMedium: TextStyle(
-            color: Colors.white,
-            fontSize: 15,
-            fontWeight: FontWeight.bold,
-            fontFamily: 'Tahoma'),
           headlineMedium: TextStyle(
             color: Colors.white,
             fontSize: 20,
+            fontWeight: FontWeight.bold),
+          headlineSmall: TextStyle(
+            color: Colors.white,
+            fontSize: 18,
+            fontWeight: FontWeight.bold),
+          bodyMedium: TextStyle(
+            color: Colors.white,
+            fontSize: 15,
             fontWeight: FontWeight.bold,
             fontFamily: 'Tahoma'),
             ),
