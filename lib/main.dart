@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    //Items _items = Items();
     return MaterialApp(
       title: 'Atrapados en el Tiempo TV',
       debugShowCheckedModeBanner: false,
@@ -37,10 +38,13 @@ class MyApp extends StatelessWidget {
             fontWeight: FontWeight.bold,
             fontFamily: 'Tahoma'),
             ),
-
         useMaterial3: true,
       ),
       home: const StartScreen(),
+  //     routes: {
+  //         //'/': (context) => const StartScreen(), // Esta es la ruta inicial
+  //         'ListScreen': (context) => ListScreen( listItems: _items,), // Esta es la ruta que quieres usar
+  // },
     );
   }
 }
